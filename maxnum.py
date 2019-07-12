@@ -1,4 +1,2 @@
-x=int(input())
-y=int(input())
-z=int(input())
+x,y,z=map(int,input().split())
 print(max(x,y,z))
