@@ -1,2 +1,8 @@
-x,y,z=map(int,input().split())
-print(max(x,y,z))
+x,y,z=map(int,input())
+if x>y and x>z:
+  print(x)
+elif (y>z):
+  print(y)
+else:
+  print(z)
+  
